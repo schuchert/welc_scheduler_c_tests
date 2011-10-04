@@ -3,6 +3,8 @@
 	<name>scheduler_tests</name>
 	<comment></comment>
 	<projects>
+		<project>RemoteSystemsTempFiles</project>
+		<project>scheduler</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
