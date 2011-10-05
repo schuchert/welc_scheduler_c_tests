@@ -25,6 +25,7 @@
 							<tool command="/opt/local/bin/g++" id="cdt.managedbuild.tool.macosx.cpp.linker.macosx.exe.debug.221767690" name="MacOS X C++ Linker" superClass="cdt.managedbuild.tool.macosx.cpp.linker.macosx.exe.debug">
 								<option id="macosx.cpp.link.option.libs.1015909550" name="Libraries (-l)" superClass="macosx.cpp.link.option.libs" valueType="libs">
 									<listOptionValue builtIn="false" value="scheduler"/>
+									<listOptionValue builtIn="false" value="gcov"/>
 									<listOptionValue builtIn="false" value="common_c"/>
 									<listOptionValue builtIn="false" value="CppUTest"/>
 								</option>
@@ -33,6 +34,7 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_c/Debug}&quot;"/>
 									<listOptionValue builtIn="false" value="/Users/schuchert/src/CppUTest2_3/lib"/>
 								</option>
+								<option id="macosx.cpp.link.option.flags.743767384" superClass="macosx.cpp.link.option.flags" value="-fprofile-arcs -ftest-coverage" valueType="string"/>
 								<inputType id="cdt.managedbuild.tool.macosx.cpp.linker.input.1400906570" superClass="cdt.managedbuild.tool.macosx.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -50,6 +52,7 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_c}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/scheduler/src}&quot;"/>
 								</option>
+								<option id="gnu.cpp.compiler.option.other.other.1303977118" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-c -fmessage-length=0 -fprofile-arcs -ftest-coverage" valueType="string"/>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.681560141" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
 							<tool command="/opt/local/bin/gcc&#10;" id="cdt.managedbuild.tool.gnu.c.compiler.macosx.exe.debug.667827268" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.macosx.exe.debug">
@@ -58,6 +61,7 @@
 								<option id="gnu.c.compiler.option.include.paths.1092839168" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/scheduler/src}&quot;"/>
 								</option>
+								<option id="gnu.c.compiler.option.misc.other.1678775517" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -fprofile-arcs -ftest-coverage" valueType="string"/>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1595048466" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 						</toolChain>
