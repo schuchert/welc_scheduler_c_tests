@@ -25,10 +25,12 @@
 							<tool command="/opt/local/bin/g++" id="cdt.managedbuild.tool.macosx.cpp.linker.macosx.exe.debug.221767690" name="MacOS X C++ Linker" superClass="cdt.managedbuild.tool.macosx.cpp.linker.macosx.exe.debug">
 								<option id="macosx.cpp.link.option.libs.1015909550" name="Libraries (-l)" superClass="macosx.cpp.link.option.libs" valueType="libs">
 									<listOptionValue builtIn="false" value="scheduler"/>
+									<listOptionValue builtIn="false" value="common_c"/>
 									<listOptionValue builtIn="false" value="CppUTest"/>
 								</option>
 								<option id="macosx.cpp.link.option.paths.1216982048" name="Library search path (-L)" superClass="macosx.cpp.link.option.paths" valueType="libPaths">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/scheduler/Debug}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_c/Debug}&quot;"/>
 									<listOptionValue builtIn="false" value="/Users/schuchert/src/CppUTest2_3/lib"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.macosx.cpp.linker.input.1400906570" superClass="cdt.managedbuild.tool.macosx.cpp.linker.input">
@@ -45,6 +47,7 @@
 								<option id="gnu.cpp.compiler.macosx.exe.debug.option.debugging.level.1598028683" name="Debug Level" superClass="gnu.cpp.compiler.macosx.exe.debug.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.include.paths.425156025" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="/Users/schuchert/src/CppUTest2_3/include"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_c}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/scheduler/src}&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.681560141" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
