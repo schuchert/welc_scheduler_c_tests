@@ -32,9 +32,9 @@
 								<option id="macosx.cpp.link.option.paths.1216982048" name="Library search path (-L)" superClass="macosx.cpp.link.option.paths" valueType="libPaths">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/scheduler/Debug}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_c/Debug}&quot;"/>
-									<listOptionValue builtIn="false" value="/Users/schuchert/src/CppUTest2_3/lib"/>
+									<listOptionValue builtIn="false" value="${CppUTest}/lib"/>
 								</option>
-								<option id="macosx.cpp.link.option.flags.743767384" superClass="macosx.cpp.link.option.flags" value="-fprofile-arcs -ftest-coverage" valueType="string"/>
+								<option id="macosx.cpp.link.option.flags.743767384" name="Linker flags" superClass="macosx.cpp.link.option.flags" value="-fprofile-arcs -ftest-coverage" valueType="string"/>
 								<inputType id="cdt.managedbuild.tool.macosx.cpp.linker.input.1400906570" superClass="cdt.managedbuild.tool.macosx.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -48,7 +48,7 @@
 								<option id="gnu.cpp.compilermacosx.exe.debug.option.optimization.level.2126599083" name="Optimization Level" superClass="gnu.cpp.compilermacosx.exe.debug.option.optimization.level" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.macosx.exe.debug.option.debugging.level.1598028683" name="Debug Level" superClass="gnu.cpp.compiler.macosx.exe.debug.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.include.paths.425156025" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
-									<listOptionValue builtIn="false" value="/Users/schuchert/src/CppUTest2_3/include"/>
+									<listOptionValue builtIn="false" value="${CppUTest}/include"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/common_c}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/scheduler/src}&quot;"/>
 								</option>
